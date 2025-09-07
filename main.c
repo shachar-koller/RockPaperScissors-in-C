@@ -16,6 +16,7 @@ int rungame(){
         printf("Rock, Paper, Scissors\n>> ");
         scanf("%9s", user_input);
 
+        //convert to lowercase
         for (int j = 0; user_input[j]; j++) {
             if (user_input[j] >= 'A' && user_input[j] <= 'Z') {
                 user_input[j] = user_input[j] + ('a' - 'A');
